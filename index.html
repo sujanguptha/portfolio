@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">    
+        <meta name="description" content="Here's my Portfolio webpage "/>
+        <meta name="Author" content="Sujan guptha"/>
+        <meta name="keywords" content="sujan,sujan portfolio,sujan guptha, sujan guptha portfolio, portfolio"/>   
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+<title><i class="fa-solid fa-file"></i>sujan's portfolio</title>
+</head>
+<body>
+    
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about"class="white"><span>About</span></a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#projects"class="white"><span>Projects</span></a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" oneclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <h1>Hola, <br>i'm <span>Sujan Guptha</span> <br>from <span style ="color:#FF9933">In</span>d<span style="color:#138808">ia</span></h1>
+            <p>Software<span style="color:crimson"> Developer</span></p><br>
+            <a href="file/sujan.pdf" download class="btn btn2"style=" padding:10px 10px; margin:50px 0;font-size:16px; position:absolute;left:50px;">Download My Resume</a>
+        </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                  <img src="image/about.jpeg"alt="my picture">
+                </div>
+                <div class="about-col2">
+                <h1 class="sub"><span style= color:crimson>About</span> Me</h1>
+                <p>An aspiring fresher with an area of interest in Software Development,Web development,Mobile app development
+                     and with some decent knowledge of Ethical hacking. I'm a highly organized and hardworking individual looking for a responsible position to gain practical experience. Talented leader,
+                    team worker, with good multitasking skills.</p>
+                    <p>Also had experience as creative Director for four years at Nigal alpha studio and i have good knowledge on filmmaking,photography and editing.</p>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id ="portfolio">
+        <h1 class="port">Port<span style=color:crimson  >folio</h1>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('SoftSkills')">Soft skills </p>
+                <p class="tab-links"onclick="opentab('Education')">Education</p>
+            </div>
+            _______________________________________________________________________________________________________________________________________________________
+            <div class="tab-contents active-tab"id="Skills">
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>JAVA</li>
+                    <li>JAVASCRIPT</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PYTHON</li>
+                </ul>
+            </div>
+            <div class="tab-contents"id="SoftSkills">
+                <ul>
+                    <li>Quick Learner</li>
+                    <li>Competitive Programing Skills</li>
+                    <li>Self Motive</li>
+                    <li>Team Player</li>
+                    <li>Film Maker</li>
+                    <li>Photography</li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents"id="Education">
+                <ul>
+                 <li><span style=color:crimson;>HSC</span><br>CGPA-8.8%<br>(2016)<br>Aditya vidhyashram higher secondary school puducherry<br>Puducherry</li>
+                 <li><span style=color:crimson;>SSLC</span><br>Percentage-73%<br>Aditya vidhyashram higher secondary school<br>Puducherry</li>
+                 <li><span style=color:crimson;>BE-CSE</span><br>CGPA-6.5<br>Kumaraguru college of technology<br>Coimbatore</li>
+                </ul>
+            </div>
+
+    </div>
+    _______________________________________________________________________________________________________________________________________________________
+    <div id="projects">
+        <h1 class="pro">Pro<span style="color:crimson;">jects</span></h1>
+        <div class="project1">
+            
+                <ol>
+                    <li><h2>1. Agri-Food Chain Using <span style="color: crimson;">Blockchain</span></h2></li>
+                    <h3> <span style="color: crimson;">Short</span> Description :</h3>
+               
+
+                <p> Supply chains are evolving into automated and highly complex networks and are 
+                    becoming an important source of potential benefits in the modern world. At the 
+                    same time, consumers are now more interested in food product quality. However, 
+                    it is challenging to track the provenance of data and maintain its traceability 
+                    throughout the supply chain network. The traditional supply chains are 
+                    centralized and they depend on a third party for trading. Blockchain for 
+                    agriculture supply chain can empower all market players by building 
+                    relationships of trust. It is a promising decentralized information technology that 
+                    could benefit food supply chains by reducing transaction cost and time, increasing 
+                    process transparency and security as well. The blockchain for supply chain can 
+                    transform the agricultural industry by simplifying all stages of the agricultural 
+                    supply chain, tracking a product along its entire path from farmland to store shelf. 
+                    Furthermore, it serves as a digital solution for reducing operational costs and 
+                    improving efficiency in food supply chains. </p>
+                    <h3>Project <span style="color: crimson;">Report :</span></h3>
+                    <a download href="file/Project report.pdf" class="btn">Click here to download </a>
+                    <h3><span style="color: crimson;">Publication</span> Certificate :</h3>
+                    <img src="/image/certificate.jpg" alt="certificate"/>
+                
+            
+            </div>
+    </div>    
+    <div id="other-projects">
+        <h1>Other<span> Projects</span></h1>
+    </div>
+        <div class="video-gallery">
+            <div class="feature-video" >
+                <div class="video-card" onclick="playvideo('video/short.mp4')">
+                <img  src="image/shortfilm1.jpg" width="100" >
+
+                <h4><span>Director</span> and<span> Scriptwriter</span> of proof of concept shortfilm "Welcome to the party"</h4>
+                <img class="play-icon"src="image/play.png">
+            </div>
+            </div>
+            <div class="related-video">
+                <div class="video-card" onclick="playvideo('video/krishna.mp4')">
+                    <img class="krishna" src="image/krishna.jpg">
+                    <h4><span>Cheif editor</span> of an album song "edhiliyum unnaye kaangiren"</h4>
+                 
+
+                </div>
+                <div class="video-card" onclick="playvideo('video/thala.mp4')">
+                    <img  src="/image/th.jpg" width="80%">
+                    <h4><span>Production  Manager</span> of Think music album song</h4>
+                   
+                    
+
+                </div>
+                <div class="video-card" onclick="playvideo('video/rani.mp4')">
+                    <img src="image/rani.jpg" width="130%">
+                    <h4> Assistant <span>Producer Executive</span> of an Think music album song</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="video" id="videoplayer">
+          
+           <video controls class="video-player"  id="myvideo">
+            <source src="video/short.mp4"type="video/mp4">
+
+           </video>
+           <div class="close-btn" onclick="stopvideo()">x</div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 style="margin-top: 40px;"><span>Contact</span> Me</h1>
+                        <p><span> <i class="fa-solid fa-paper-plane" style="margin-right:16px;font-size: 20px; padding: 10px 0;"></span></i> sujgup5678@gmail.com</p>
+                        <p><span><i class="fa-solid fa-square-phone" style="margin-right:20px;font-size: 20px;padding: 10px 0"></i></span>+91-7010119378</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/sujan-guptha-174208248/"><span style="color: #0A66C2;"><i class="fa-brands fa-linkedin"></span></i></a>
+                            <a href="https://instagram.com/__s.u.j.a.n__?igshid=YmMyMTA2M2Y="><span style="color: #bc2a8d"> <i class="fa-brands fa-instagram" ></span></i></a>
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <span><i class="fa-solid fa-copyright"></span></i> Sujan Guptha</p>
+            </div>
+        </div>
+    
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+       
+    </script>
+    <script>
+        var videoplayer=document.getElementById("videoplayer");
+        var myvideo=document.getElementById("myvideo");
+        function stopvideo(){
+            videoplayer.style.display="none";
+            Audio.stopvideo;
+        }
+        function playvideo(file){
+            myvideo.src=file;
+            videoplayer.style.display="block";
+
+        }
+      
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="200px";
+        }
+    </script>
+</body>
+</html>
